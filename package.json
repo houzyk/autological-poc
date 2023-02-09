@@ -1,11 +1,8 @@
 {
   "name": "autological-poc",
   "version": "1.0.0",
-  "description": "",
+  "description": "POC for describing Grelling–Nelson paradox",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",

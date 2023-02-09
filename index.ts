@@ -1,13 +1,13 @@
 function isAutological (func: Function, ...funcParams) {
-    const funcReturn = func(...funcParams);
-    const isFuncAutological = Object.is(funcReturn, func);
-  
-    console.log({
-      func,
-      funcReturn
-    });
-  
-    return isFuncAutological;
+  const funcReturn = func(...funcParams);
+  const isFuncAutological = Object.is(funcReturn, func);
+
+  console.log({
+    func,
+    funcReturn
+  });
+
+  return isFuncAutological;
 }
 
 function isNotAutological (func: Function, ...funcParams) {
